@@ -1,0 +1,12 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+---
+layout: default
+title: 设计一个靠谱的监控系统
+---
+#+END_HTML
+
+
+
+

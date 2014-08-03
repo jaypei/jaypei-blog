@@ -1,0 +1,53 @@
+{% if page.image.feature %}
+
+{% include head.html %}
+
+<section class="article">
+
+  <div class="overlay"></div>
+  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>{{ page.title }}</h1>
+            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+
+          </hgroup>
+        </header>
+
+        {{ content }}
+
+{% if page.comments %}
+        <div class="container">
+            <div id="SOHUCS"></div>
+        </div>
+        <script>
+         (function(){
+             var appid = 'cyrbz36rh',
+             conf = 'prod_cbc7d52c969bdaf9f033cefc3791bf47';
+             var doc = document,
+             s = doc.createElement('script'),
+             h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+             s.type = 'text/javascript';
+             s.charset = 'utf-8';
+             s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+             h.insertBefore(s,h.firstChild);
+             window.SCS_NO_IFRAME = true;
+         })();
+        </script>
+{% endif %}
+
+
+      </article>
+    </section>
+</div>
+
+{% include footer.html %}

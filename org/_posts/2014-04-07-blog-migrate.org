@@ -1,0 +1,17 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+---
+layout: post
+title:  "博客又搬家"
+date:   2014-04-07 14:27:00
+comments: true
+categories: jekyll
+---
+#+END_HTML
+
+有一年没写博客了，太忙是一方面，主要原因是写博客的习惯没了。
+
+在这个中秋小假，重新整了一下 Jekyll ，发现这真心是我寻找多年的写博客方式啊。
+
+重新燃气了写博客的欲望。:D

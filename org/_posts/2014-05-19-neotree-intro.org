@@ -1,0 +1,29 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+
+#+BEGIN_HTML
+---
+layout: post
+title:  "NeoTree 介绍"
+comments: true
+categories: emacs neotree
+---
+#+END_HTML
+
+
+从 Vim 转向 Emacs 后，大多常用的 Vim 插件都找到对应，但始终没找到像 NERDTree 一样优秀的文件树。
+
+尝试了 ecb、nav、zTree 这些类似插件都不太理想，所以有了这个项目。
+
+目前 master 版本已经可用，我会在业余时间尽量把它做的好用。 :)
+
+View on [[https://github.com/jaypei/emacs-neotree][GitHub]] | [[http://www.emacswiki.org/emacs/NeoTree][EmacsWiki]]
+
+
+演示录像：
+
+#+BEGIN_HTML
+<script type="text/javascript" src="https://asciinema.org/a/9632.js" id="asciicast-9632" async></script>
+#+END_HTML
+
+

@@ -1,0 +1,37 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+#+BEGIN_HTML
+---
+layout: post
+title: 重置 macbook 硬件信息
+comments: true
+categories: macbook
+---
+#+END_HTML
+
+
+早上电脑屏幕不亮了，但是显示器亮，尝试加减背光亮度，只看到屏幕有微微亮度变化。
+
+拨通了 apple 工程师电话，一招给搞定，神奇。。
+
+
+* 解决方案
+
+重置电源
+
+1. 先连上电源线
+2. 找到左侧 `CTRL + OPTION + SHIFT` 和 `开机键`
+3. 4个同时按住15秒
+4. 没有任何动静，就算成功了
+
+
+重置硬件信息缓存
+
+1. 先连上电源线
+2. 找到左侧的 `COMMAND + OPTION + P + R`
+3. 先按一下 `开机键` ，然后迅速按住上面4个键
+4. 开机4声后，松手
+
+
+以后遇到诡异问题都可以自己先操作以上两步，然后再寻求帮助。
