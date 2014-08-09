@@ -31,7 +31,7 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'jekyll/assets/css/c.css': 'jekyll/assets/sass/i.scss'
+                    'jekyll/assets/css/i.css': 'jekyll/assets/sass/i.scss'
                 }
             }
         }
