@@ -1,0 +1,52 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+#+BEGIN_HTML
+---
+layout: post
+title:  我的 Jekyll 实践
+comments: true
+categories: jekyll
+---
+#+END_HTML
+
+* 选型
+
+** Jekyll
+
+TODO
+
+
+** Theme
+
+TODO
+
+
+** 标记语言书写博客
+
+TODO
+
+
+
+* 社交评论系统
+
+选择评论插件的确花了一番功夫。最开始很自然的想到 Disqus，但因为访问速度问题，必须要找一家国内的评论系统。
+
+于是我先选择了搜狐的畅言，原因是搜狐的背景让我感觉系统应该会稳定。
+
+畅言使用了 1 个月时间左右，发现它不是一般的不稳定，经常载入失败，而且一旦载入失败就会一直转圈圈。
+
+无奈，只能换方案。
+
+目前使用的是 友言，功能啥的不多说，官方介绍的比我好。
+
+稳定性、速度和体验，友言完胜。
+
+
+* GitHub
+
+项目地址在此，欢迎借鉴。
+
+https://github.com/jaypei/jaypei-blog
