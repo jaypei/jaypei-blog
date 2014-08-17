@@ -1,0 +1,23 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+---
+layout: default
+title: nagios-plugins-graphite
+---
+#+END_HTML
+
+
+* 为什么做这个
+
+1. 通过 Go 获得更好的性能
+2. 支持表达式，操作符支持 (>, >=, <, <=, =, !=)
+3. 可以根据时段有不同报警值
+4. 支持判断持续几次符合条件即报警
+
+* 使用方法
+
+* View the GitHub project
+
+https://github.com/jaypei/nagios-plugins-graphite
+
